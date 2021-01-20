@@ -27,6 +27,12 @@
                 {!! Form::label('NAME') !!}
             {!! Form::text('name',$data->name,["class"=>"form-control"]) !!}
             </div>
+
+            <div class="form-group">
+                {!! Form::label('LAST NAME') !!}
+            {!! Form::text('lname',$data->lname,["class"=>"form-control"]) !!}
+            </div>
+
             <div class="form-group">
                 {!! Form::label('Email') !!}
             {!! Form::text('email',$data->email,["class"=>"form-control"]) !!}

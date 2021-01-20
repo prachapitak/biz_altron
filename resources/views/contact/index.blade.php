@@ -26,7 +26,7 @@
             
           <tr>
             <th scope="row">{{$row->id}} </th>
-            <td>{{$row->name}}</td>
+            <td>{{$row->name.' '.$row->lname}}</td>
             <td>{{$row->email}}</td>
             <td>{{$row->phone}}</td>
             <td><a href="{{route('contact.edit',$row->id)}}" class="btn btn-success">Edit</a></td>
