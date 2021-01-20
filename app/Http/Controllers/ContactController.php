@@ -41,6 +41,7 @@ class ContactController extends Controller
         //  dd($request);
         $request->validate([
             'name' => 'required',
+            'lname' => 'required',
             'email' => 'required|email',
             'phone' => 'required']
 
@@ -90,6 +91,7 @@ class ContactController extends Controller
         //  dd($request);
         $request->validate([
             'name' => 'required',
+            'lname' => 'required',
             'email' => 'required|email',
             'phone' => 'required']
 

@@ -9,7 +9,7 @@ class Contact extends Model
 
     
     protected $fillable = [
-        'name', 'email', 'phone'
+        'name', 'email', 'phone','lname'
     ];
 
    
